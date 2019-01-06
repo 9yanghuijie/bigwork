@@ -150,12 +150,8 @@
 						slider.style.display="none";
 					}
 					yuan.onmousemove=function(ev){
-						console.log(yuan.offsetWidth);
-						// console.log(document.documentElement.scrollTop);
-						console.log(yuan.coffsetHeight);
-						// console.log(slider.offsetHeight/2);
 						var ev=ev || window.event;
-						var left=ev.clientX-aaa.offsetLeft-slider.offsetWidth/2;
+						var left=ev.clientX-aaa.offsetLeft-slider.offsetWidth/2+200;
 						var top=ev.clientY-aaa.offsetTop-slider.offsetHeight/2+document.documentElement.scrollTop-210;
 						var maxLeft=yuan.offsetWidth-slider.offsetWidth;
 						var maxTop=yuan.offsetHeight-slider.offsetHeight;
