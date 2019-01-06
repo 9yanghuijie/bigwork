@@ -349,7 +349,7 @@ a{
 	display: none;
 	border:1px solid #d0cdc7;
 	position: absolute;
-	right:0;
+	left:409px;
 	top:0;
 	overflow: hidden;
 	z-index: 2;
@@ -365,7 +365,6 @@ a{
 #datu{
 	width: 408px;
 	height: 408px;
-	/*background-img: url(../img/pp11.jpeg);*/
 	position: absolute;
 }
 #slider{
